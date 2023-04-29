@@ -1,0 +1,390 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #3C486B;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.9);
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 333;
+}
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+.aheader{
+    text-decoration: none;
+    color: #E1D89F;
+    margin: 10px;
+    width: 90px;
+    height: 25px;
+    transition-duration: 0.3s;
+}
+
+.aheader:hover {
+    color: #afa97c;
+    opacity: 0.5;
+}
+
+#image {
+    width: 550px;
+    height: 190px;  
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 90px;
+}
+
+#image2 {
+    width: 700px;
+    height: 800px;
+    border-style: solid;
+    border-color: #ade4d7;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+#image3 {
+    width: 650px;
+    height: 600px;
+    border-style: solid;
+    border-color: #dfe2ae;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+#image4 {
+    width: 750px;
+    height: 700px;
+    border-style: solid;
+    border-color: #CBE4DE;
+    border-radius: 10px;
+}
+
+#image5 {
+    width: 900px;
+    height: 800px;
+    border-radius: 10px;
+    border: 2px solid rgb(238, 238, 166);
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+#image6 {
+    width: 1200px;
+    height: 800px;
+    border-radius: 10px;
+    border: 2px solid rgb(167, 167, 167);
+    display: flex;
+    margin: auto;
+    text-align: center; 
+}
+
+#reservarbutton {
+    width: 250px;
+    height: 65px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #03a06b;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#reservarbutton:hover{
+    width: 250px;
+    height: 65px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #00ad74;
+    color: white;
+    font-size: 25px;
+}
+
+#infotitle {
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #bcd3ce;
+    margin: auto;
+}
+
+#info {
+    display: flex;
+    font-size: 25px;
+    background-color: #CBE4DE;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#informacion {
+    margin: 0;
+    margin-top: 60px;
+    background-image: url(./img/56794768-beach-doodle-art-for-kids-transformed.jpg);
+}
+
+#consulta {
+    text-align: center;
+}
+
+#consultatitle {
+    display: flex;
+    justify-content: center;
+}
+
+
+#doctora {
+    background-image: url(./img/istockphoto-1093110282-1024x1024-transformed.jpeg.png);
+}
+
+#sobremi {
+    width: 500px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: wheat;
+    text-align: center;
+    margin: auto;
+}
+
+#soy {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #ABC4AA;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid #9ab993;
+}
+
+#comentarios {
+    background-color: #bce2b4;
+    border-radius: 10px;
+    border: 2px solid #abcea4;
+}
+
+#caja {
+    padding-bottom: 1px;
+    margin-left: 5px;
+}
+
+#commentitle {
+    margin-left: 5px;
+}
+
+#comment {
+    width: 750px;
+    height: 115px;
+    border-style: solid;
+    border-color: #7dbbb0;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #86C8BC;
+}
+
+#subject {
+    margin-left: 5px;
+}
+
+#Ubicacion {
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#ubicacionp {
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#ubicacionlink:hover{
+    color: #498066;
+}
+
+#ubicacionlink {
+    text-decoration: none;
+}
+
+#cartel {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#diseño {
+    margin-top: 50px;
+    background-image: url(./img/zyro-image\ \(1\).png);
+}
+
+#diseñotitle {
+    text-align: center;
+    font-size: 40px;
+    background-color: #fffeb5;
+    border-radius: 10px;
+    border: 2px solid #d4d397;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#diseñador {
+    text-align: center;
+    font-size: 30px;
+    background-color: #98D8AA;
+    border-radius: 10px;
+    border: 2px solid #7fb48e;
+    width: 700px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#edad {
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #98D8AA;
+    border-radius: 10px;
+    border: 2px solid #7fb48e;
+    width: 230px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#estado {
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #98D8AA;
+    border-radius: 10px;
+    border: 2px solid #7fb48e;
+    width: 700px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#copy {
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+    
+    #image{
+        margin-top: 10px;
+    }
+    
+    #image2 {
+        width: 500px;
+        height: 550px;
+    }
+
+    #image3 {
+        width: 500px;
+        height: 500px;
+        margin-left: 5px;
+    }
+
+    #cartel {
+
+        width: 700px;
+
+    }
+
+    #image6 {
+       width: 600px;
+       height: 500px;
+    }
+
+    #image5 {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #comment {
+        width: 500px;
+        height: 180px;
+    }
+
+    #comentarios {
+        width: 600px;
+        height: 350px;
+    }
+
+    header {
+        visibility: hidden;
+    }
+
+    #soy {
+        width: 500px;
+        height: 635px;
+    }
+
+    #sobremi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #doctora {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #diseño {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #diseñador {
+        width: 500px;
+        height: 80px;
+    }
+
+    #estado {
+        width: 500px;
+        height: 80px;
+    }
+
+    #ubicaciondiv {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+}
