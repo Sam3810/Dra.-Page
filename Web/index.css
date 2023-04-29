@@ -105,7 +105,7 @@ body {
     background-color: #03a06b;
     color: white;
     font-size: 25px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 #reservarbutton:hover{
@@ -176,6 +176,7 @@ body {
 }
 
 #comentarios {
+    margin-top: 20px;
     background-color: #bce2b4;
     border-radius: 10px;
     border: 2px solid #abcea4;
