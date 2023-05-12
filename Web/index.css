@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -191,14 +197,14 @@ body {
     margin-left: 5px;
 }
 
-#comment {
-    width: 750px;
-    height: 115px;
-    border-style: solid;
-    border-color: #7dbbb0;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: #86C8BC;
+.comentario1 {
+    background-color: #a2d8cb;
+    border: 5px solid #8fc0b5;
+    border-radius: 5px;
+    width: 31%;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    padding: 10px;
 }
 
 #subject {
@@ -294,98 +300,34 @@ body {
     align-items: center;
 }
 
-
-
-
-@media screen and (max-width: 576px) {
-    
-    #image{
-        margin-top: 10px;
-    }
-    
-    #image2 {
-        width: 500px;
-        height: 550px;
-    }
-
-    #image3 {
-        width: 500px;
-        height: 500px;
-        margin-left: 5px;
-    }
-
-    #cartel {
-
-        width: 700px;
-
-    }
-
-    #image6 {
-       width: 600px;
-       height: 500px;
-    }
-
-    #image5 {
-        width: 500px;
-        height: 500px;
-        display: flex;
-        justify-content: center;
-    }
-
-    #comment {
-        width: 500px;
-        height: 180px;
-    }
-
-    #comentarios {
-        width: 600px;
-        height: 350px;
-    }
+@media (max-width: 576px) {
 
     header {
         visibility: hidden;
     }
 
-    #soy {
-        width: 500px;
-        height: 635px;
+    img {
+        max-width: 500px;
+        max-height: 600px;
     }
 
-    #sobremi {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    #doctora {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    #diseño {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    .comentario1 {
+        width: 90%;
     }
 
     #diseñador {
-        width: 500px;
-        height: 80px;
+        font-size: 25px;
+        width: 570px;
     }
 
     #estado {
-        width: 500px;
-        height: 80px;
+        font-size: 25px;
+        width: 570px;
     }
 
-    #ubicaciondiv {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-direction: column;
+    #image {
+        margin: auto;
+        margin-top: 10px;
     }
+
 }
