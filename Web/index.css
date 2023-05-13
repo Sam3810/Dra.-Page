@@ -164,7 +164,7 @@ body {
 }
 
 #sobremi {
-    width: 500px;
+    width: 900px;
     border-radius: 10px;
     font-size: 40px;
     background-color: wheat;
@@ -329,6 +329,11 @@ body {
     #image {
         margin: auto;
         margin-top: 10px;
+    }
+
+    #sobremi {
+        font-size: 20px;
+        width: 450px;
     }
 
 }
