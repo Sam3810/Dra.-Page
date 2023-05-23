@@ -26,11 +26,7 @@ html {
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
+    margin: 0;
 }
 
 .aheader{
@@ -245,7 +241,7 @@ body {
 
 #diseño {
     margin-top: 50px;
-    background: linear-gradient(270deg, rgb(228, 228, 114), rgb(119, 149, 156), rgb(82, 88, 112));
+    background-image: url(./img/zyro-image\ \(1\).png);
     width: 100vw;
 }
 
