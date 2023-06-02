@@ -14,6 +14,7 @@
 body {
     background: linear-gradient(150deg, rgb(82, 109, 146), rgb(50, 61, 90), rgb(45, 83, 60));
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 section {
