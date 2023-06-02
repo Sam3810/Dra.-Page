@@ -1,11 +1,11 @@
-let botonreservar = document.getElementById('reservarbutton')
+const abrir = document.querySelector('.abrir')
+const cerrar = document.querySelector('.cerrar')
+const nav = document.querySelector('.nav')
 
-botonreservar.addEventListener('click', consulta)
+abrir.addEventListener('click', () => {
+    nav.classList.add('visible')
+})
 
-
-function consulta (){
-    window.open("https://api.whatsapp.com/send?phone=573219009697&text=Buenas,%20quiero%20reservar%20una%20cita%20con%20la%20doctora%20Oriana")
-}
-
-
-
+cerrar.addEventListener('click', () => {
+    nav.classList.remove('visible')
+})
