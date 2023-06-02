@@ -3,4 +3,5 @@
 Website of Dr. Oftanmologist Pediatrician Oriana Bueno Duque.
 
 Link: https://orianabuenoduque.netlify.app/
-![image](https://github.com/Sam3810/Dra.-Page/assets/118696492/ddb18172-3302-4e10-97b4-c2d156dae442)
+
+![image](https://github.com/Sam3810/Dra.-Page/assets/118696492/bd9b4011-2919-44a9-a0f5-9d7d76ada857)
