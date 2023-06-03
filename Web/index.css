@@ -13,7 +13,7 @@
 
 html {
     overflow-y: scroll;
-     scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -42,7 +42,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px;
     background-color: rgb(53, 75, 80);
     position: sticky;
     top: 0;
@@ -205,6 +205,14 @@ footer {
     background-color: white;
     border-radius: 5px 5px 0 0;
     padding: 10px;
+}
+
+footer p {
+    margin: 10px auto;
+}
+
+footer a {
+    color: rgb(81, 81, 179);
 }
 
 body::-webkit-scrollbar {
