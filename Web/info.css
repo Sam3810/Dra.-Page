@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Mona Sans';
+    src:
+      url('./Fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+      url('./Fonts/Mona-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+}
+
+* {
+    font-family: 'Mona Sans', sans-serif;
+}
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(150deg, rgb(82, 109, 146), rgb(50, 61, 90), rgb(45, 83, 60));
+    margin: 0;
+}
+
+section {
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100dvh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section img {
+    margin-top: px;
+    max-width: 20px;
+}
+
+div > p {
+    text-align: start;
+    margin: 20px 0;
+}
+
+ul, li {
+    list-style: none;
+    text-align: start;
+    padding: 0;
+    margin: 0;
+}
+
+ul img {
+    margin-right: 5px;
+}
+
+div {
+    border-radius: 10px;
+    box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.4);
+    background-color: white;
+    padding: 40px 40px;
+}
+
+a {
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+span {
+    font-weight: 600;
+}
+
+#regresar img{
+    width: 13px;
+    padding: 10px;
+}
