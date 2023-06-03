@@ -18,7 +18,7 @@ html {
 
 body {
     background: linear-gradient(150deg, rgb(82, 109, 146), rgb(50, 61, 90), rgb(45, 83, 60));
-    margin: 0;
+    margin: 0 5px;
 }
 
 section {
@@ -27,7 +27,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100dvh;
+    min-height: 94.9dvh;
     margin: 0 auto;
     text-align: center;
 }
@@ -65,6 +65,10 @@ a {
     transition-duration: 0.3s;
 }
 
+a:hover {
+    opacity: 0.5;
+}
+
 span {
     font-weight: 600;
 }
@@ -72,4 +76,23 @@ span {
 #regresar img{
     width: 13px;
     padding: 10px;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+    background: linear-gradient(150deg, rgb(82, 109, 146), rgb(50, 61, 90), rgb(45, 83, 60));
+}
+  
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+  
+body::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #8a8f92;
+}
+  
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #6d7072;
 }
