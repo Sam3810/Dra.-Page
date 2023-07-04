@@ -39,10 +39,6 @@ a {
     opacity: 0.5;
 }
 
-p {
-    text-align: justify;
-}
-
 header {
     display: flex;
     justify-content: center;
