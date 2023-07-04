@@ -30,6 +30,10 @@ main {
     padding: 0 10px;
 }
 
+p {
+    text-align: start;
+}
+
 a {
     text-decoration: none;
     transition-duration: 0.3s;
