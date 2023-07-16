@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pagina web de la Dra. Oftalmologa Pediatra Oriana Bueno Duque, profesional en oftalmología y oftalmología pediátrica y estrabismo.">
     <meta name="keywords" content="Pediatria, Medicina, Oftalmologia, Oriana Bueno Duque, Oriana Bueno">
-    <meta name="category" content="Pediatria">
+    <meta name="category" content="Oftalmologia">
     <meta name="robots" content="index, follow">
     <meta name="audience" content="all">
     <meta name="language" content="spanish">
@@ -22,24 +22,31 @@
             <button class="abrir" id="abrir"><img src="./img/menu 1.svg" alt="Menu"></button>
             <nav class="nav" id="nav">
                 <button class="cerrar" id="abrir"><img src="./img/cancel 1.svg" alt="Cerrar"></button>
-                <a class="a" href="#bio">Sobre mi</a>
-                <a class="a" href="#ubicacion">Ubicacion</a> 
-                <a class="a" href="#agendar">Agendar cita</a>
-                <a class="a" href="./informacion.html">Mas informacion</a>
+                <a class="a" href="#ubicacion">Ubicacion</a>
+                <a id="contacto" class="a" target="_blank" href="https://api.whatsapp.com/send?phone=573219009697&text=Hola,%20quiero%20reservar%20una%20cita%20con%20la%20Dra.%20Oriana%20Bueno%20Duque">
+                <img src="/img/whatsapp-6273368_640.png" alt="Logo de WhatsApp">
+                Agendar cita
+                </a>
+                <a class="a" href="./info/informacion.html">Mas informacion</a>
                 <a class="a" target="_blank" href="https://www.instagram.com/draorianabueno_oftalmopediatra/">Instagram</a>
+                <a class="a" href="/temas/temas.html">Temas de Interes</a>
             </nav>
         </section>
     </header>
     <main>
 
-        <div>
-            <img id="logo" src="./img/zyro-image.png" alt="Logo de la Dra Oriana Bueno Duque">
+        <div id="logo">
+            <img src="./img/zyro-image.png" alt="Logo de la Dra Oriana Bueno Duque">
         </div>
 
         <section id="bio">
             <div id="bio-div">
-                <h1>Dra. Oftanmologa Pediatra Oriana Bueno Duque</h1>
-                <p>Profesional en Oftalmología y Oftalmología Pediátrica y Estrabismo, con formación ética e integral que me permite tener una adecuada relación médico-paciente. Con 12 años de experiencia y conocimientos teórico-prácticos que me otorgan la capacidad de prevenir, intervenir, rehabilitar e investigar las enfermedades relacionadas con esta disciplina. Capacitada para diseñar, dirigir, ejecutar y evaluar la atención médica enfocada en mi especialidad y subespecialidad. Honesta, responsable, leal, sincera, fiel a mis convicciones y segura de mi vocación. En mi actuar diario respetuosa y considerada con los pacientes, que son la razón de mi profesión.</p>
+                <h1>Dra. Oriana Bueno <br> <span id="title-span">Oftalmología Pediátrica y Estrabismo</span> </h1>
+                <p>Profesional en Oftalmología, Oftalmología Pediátrica y Estrabismo, con formación ética e integral que me permite tener una adecuada relación médico-paciente. Con 12 años de experiencia y conocimientos teórico-prácticos que me otorgan la capacidad de prevenir, intervenir, rehabilitar e investigar las enfermedades relacionadas con esta disciplina. Capacitada para diseñar, dirigir, ejecutar y evaluar la atención médica enfocada en mi especialidad y subespecialidad. Honesta, responsable, leal, sincera, fiel a mis convicciones y segura de mi vocación. En mi actuar diario respetuosa y considerada con los pacientes, que son la razón de mi profesión.</p>
+
+                <div id="img1-container">
+                    <img id="img-1" src="./img/46bfe02f-2fac-4fee-9e95-2cda715ee67a.jpg" alt="Foto de la Dra. Oriana Bueno Duque con una maquina de Oftalmologia">
+                </div>
 
                 <div id="estudios">
                     <h2>Estudios</h2>
@@ -51,18 +58,18 @@
                 </div>
 
 
-                <div id="img1-container">
-                    <img id="img-1" src="./img/46bfe02f-2fac-4fee-9e95-2cda715ee67a.jpg" alt="Foto de la Dra. Oriana Bueno Duque con una maquina de Oftalmologia">
+                <div id="cursos">
+                    <h2>Asistencia a cursos</h2>
+                    <h3>ACOPE 2023</h3>
+                    <h3>CLADE 2023</h3>
+                    <h3>CONGRESO REUMATOLOGIA 2023</h3>
+                    <h3>I CURSO DE CORNEA PEDIATRICA</h3>
                 </div>
             </div>
         </section>
 
         <section id="comentarios">
-            <h2>Comentarios de mis pacientes</h2>
-            <div>
-                <h3>Mamá:</h3>
-                <p>Consultamos a la doctora, por una masa que tenia mi hijo de 4 años en sus parpados inferior y superior, en donde la doctara nota que mi hijo no veia bien, le envio receta de gafas y cirugía ya que sus masas eran dos chalaziones que ya estaban demasiado grandes. En su cirugía le fue muy bien, sigue pendiente de controles. Agradecida con su atención y rapidez con los niños, le brindo confianza y seguridad a mi hijo en todo momento.</p>
-            </div>
+
         </section>
 
         <section id="ubicacion">
@@ -70,21 +77,18 @@
                 <img src="./img/414-4144289_te-esperamos-te-esperamos-png.png" alt="Te esperamos">
                 <img id="img-2" src="./img/IMG_0268_websize.jpg" alt="Foto de la Dra. Oriana Bueno Duque usando una computadora">
             </div>
-            <p>Mi consultorio esta ubicado en <a class="a" id="ubicacion-a" target="_blank" href="https://www.google.com/maps?lqi=ChllZGlmaWNpbyBlbCBib3NxdWUgYm9nb3RhSO6otoWkqoCACFozEAAQARACGAAYARgCGAMiGWVkaWZpY2lvIGVsIGJvc3F1ZSBib2dvdGEqCAgCEAAQARACkgENYnVzaW5lc3NfcGFya6oBIxABMh8QASIbU81YTYWsvIalJJnu_D3rYSIof-jslUtWyT52&vet=12ahUKEwjSgOr7-6f-AhXyRTABHT-ZBcYQ8UF6BAgDEDA..i&lei=goo4ZNK3EfKLwbkPv7KWsAw&cs=1&um=1&ie=UTF-8&fb=1&gl=co&sa=X&geocode=KXkWTmhWhT-OMdlEzaeu5Vbo&daddr=Cl.+134+%237B+83,+Bogot%C3%A1">El Bosque Calle 134 #7b-83, Consultorio 721
+            <p><a class="a1" id="ubicacion-a" target="_blank" href="https://www.google.com/maps?lqi=ChllZGlmaWNpbyBlbCBib3NxdWUgYm9nb3RhSO6otoWkqoCACFozEAAQARACGAAYARgCGAMiGWVkaWZpY2lvIGVsIGJvc3F1ZSBib2dvdGEqCAgCEAAQARACkgENYnVzaW5lc3NfcGFya6oBIxABMh8QASIbU81YTYWsvIalJJnu_D3rYSIof-jslUtWyT52&vet=12ahUKEwjSgOr7-6f-AhXyRTABHT-ZBcYQ8UF6BAgDEDA..i&lei=goo4ZNK3EfKLwbkPv7KWsAw&cs=1&um=1&ie=UTF-8&fb=1&gl=co&sa=X&geocode=KXkWTmhWhT-OMdlEzaeu5Vbo&daddr=Cl.+134+%237B+83,+Bogot%C3%A1">Edificio El Bosque <br> Calle 134 #7b-83, Consultorio 721
             </a></p>
 
-            <a class="a" id="info" href="./informacion.html">Mas informacion</a>
-        </section>
+            <p>Bogotá, Colombia</p>
 
-        <section id="agendar">
-            <h2>Haz tu cita Pediatrica para tu hijo ahora</h2>
-            <a id="agendar-button" target="_blank" href="https://api.whatsapp.com/send?phone=573219009697&text=Buenas,%20quiero%20reservar%20una%20cita%20con%20la%20Dra.%20Oriana%20Bueno%20Duque">Agendar cita</a>
+            <a class="a1" id="info" href="./informacion.html">Mas informacion</a>
         </section>
     </main>
 
-    <footer>    
+    <footer>
         <p>Copyright 2023</p>
-        <p>Web diseñada por <a class="a" target="_blank" href="https://devsbloog.netlify.app/me/me.html">Samuel Vanegas Bueno</a></p>
+        <p>Web diseñada por <a class="a1" target="_blank" href="https://devsbloog.netlify.app/me/me.html">Samuel Vanegas Bueno</a></p>
     </footer>
 
     <script src="index.js"></script>

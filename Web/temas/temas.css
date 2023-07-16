@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Mona Sans';
     src:
-      url('./Fonts/Mona-Sans.woff2') format('woff2 supports variations'),
-      url('./Fonts/Mona-Sans.woff2') format('woff2-variations');
+      url('/Fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+      url('/Fonts/Mona-Sans.woff2') format('woff2-variations');
     font-weight: 200 900;
     font-stretch: 75% 125%;
     font-display: swap;
@@ -20,6 +20,7 @@ html {
 body {
     background: linear-gradient(150deg, rgb(82, 109, 146), rgb(50, 61, 90), rgb(45, 83, 60));
     margin: 0;
+    box-sizing: border-box;
 }
 
 section {
@@ -72,18 +73,13 @@ header img {
     max-width: 50px;
 }
 
-.a {
+nav a {
     color: white;
     margin: 0 5px;
     border: 1px solid grey;
     padding: 5px;
     border-radius: 5px;
-    text-align: center;
     background-color: rgb(73, 102, 109);
-}
-
-.a1 {
-    color: #426652;
 }
 
 h1 {
@@ -107,15 +103,9 @@ footer a {
     color: rgb(81, 81, 179);
 }
 
-#contacto img {
-    max-width: 17px;
-    margin-right: 8px;
-    margin: 0 auto;
-    margin-bottom: -3px;
-}
-
-#cursos h3 {
-    color: rgb(129, 73, 129);
+section {
+    max-width: 1100px;
+    margin: auto;
 }
 
 #logo img {
@@ -129,122 +119,63 @@ footer a {
     max-width: 400px;
 }
 
-#bio {
+#articles {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 30px;
-    border-radius: 10px;
-    box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.4);
+    gap: 20px;
+}
+
+#section-articles {
     background-color: white;
     padding: 20px;
-    scroll-margin-top: 60px;
-}
-
-#bio-div {
-    max-width: 800px;
-    text-align: center;
-}
-
-#img-1 {
-    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.4);
 }
 
-#bio p {
-    max-width: 800px;
-    font-size: 17px;
+article a {
+    color: black;
 }
 
-#estudios {
-    margin: auto;
-    margin-top: 40px;
-}
-
-#estudios p {
-    max-width: 800px;
-    text-align: center;
-}
-
-#ubicacion {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 30px;
+article {
+    max-width: 300px;
+    background-color: rgb(200, 240, 226);
     border-radius: 10px;
-    box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.4);
-    background-color: white;
     padding: 20px;
-    scroll-margin-top: 60px;
+    transition-duration: 0.3s;
 }
 
-#ubicacion div {
-    max-width: 800px;
-    text-align: center;
+article:hover {
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
-#ubicacion img {
+.img-container {
+    max-width: 300px;
+}
+
+.img-container img {
     width: 100%;
-}
-
-#ubicacion-a:hover {
-    color: rgb(117, 63, 153);
-}
-
-#ubicacion a {
-    font-size: 17px;
-}
-
-#ubicacion p {
-    text-align: center;
-}
-
-#img-2 {
     border-radius: 10px;
-    box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.4);
+}
+
+#contacto img {
+    max-width: 17px;
+    margin-right: 8px;
+    margin: 0 auto;
+    margin-bottom: -2px;
 }
 
 #info {
-    color: rgb(56, 112, 86);
-}
-
-#info:hover {
-    opacity: 0.7;
-}
-
-#title-span {
-    color: rgb(98, 126, 180);
+    text-align: center;
 }
 
 .abrir, .cerrar {
     display: none;
 }
 
-body::-webkit-scrollbar {
-    width: 5px;
-    border-radius: 5px;
-    background: linear-gradient(150deg, rgb(82, 109, 146), rgb(50, 61, 90), rgb(45, 83, 60));
-}
-
-body::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
-}
-
-body::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    background-color: #8a8f92;
-}
-
-body::-webkit-scrollbar-thumb:hover {
-    background-color: #6d7072;
-}
-
-@media (max-width: 750px) {
+@media (max-width: 700px) {
     .nav {
         display: flex;
         align-items: end;
@@ -277,5 +208,11 @@ body::-webkit-scrollbar-thumb:hover {
 
     .abrir {
         margin: 0 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    iframe {
+        width: 220px;
     }
 }
